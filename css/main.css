@@ -2,7 +2,10 @@
 /*new Css*/
 
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
 }
 .h-full{
 	height: calc(100vh - 60px);
@@ -22,6 +25,29 @@ body{
 }
 
 
+.landing{
+
+}
+.page-desc,
+.page-subtitle, 
+.page-title{
+	color: #fff;
+	line-height: .5rem;
+}
+.page-title{
+	font-size: 6rem;
+	line-height: 2.5rem;
+	line-height: .2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.page-subtitle{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.3rem;
+	line-height: .3rem;
+	font-weight: 100;
+}
+
 
 
 .flex{
@@ -32,6 +58,15 @@ body{
 	display: flex;
 }
 .flex-center{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.flex-center-center{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
