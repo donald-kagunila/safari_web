@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6{
 	text-transform: capitalize;
 }
 .h-full{
-	height: calc(100vh - 60px);
+	height: calc(100vh);
 	width: 100%;
 	background-color: red;
 }
@@ -36,11 +36,11 @@ h1, h2, h3, h4, h5, h6{
 	opacity: .5;
 }
 .page-wrapper{
-	position: relative;
+	position: absolute;
+	width: 100%;
 	z-index: 99;
-	/*background-color: #fff;*/
 	padding-bottom: 560px;
-	top: -64px;
+	top: 0px;
 }
 
 .content-holder{
