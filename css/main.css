@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6{
 	position: absolute;
 	width: 100%;
 	z-index: 99;
-	padding-bottom: 560px;
+	/*padding-bottom: 560px;*/
 	top: 0px;
 }
 
